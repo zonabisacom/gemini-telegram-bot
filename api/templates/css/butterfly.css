@@ -1,0 +1,43 @@
+/* Center the container within the viewport */
+.center-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the input field and links */
+input,
+a {
+  margin: 15px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Style the links to appear as buttons */
+a {
+  display: inline-block;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+/* Style the "setWebhook" and "deleteWebhook" links to have a primary button look */
+#setWebhookURL,
+#deleteWebhookURL {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+/* Style the "getWebhookInfo" link to have a secondary button look */
+#getWebhookInfoURL {
+  background-color: #ccc;
+}
+
+/* Add hover effects for the buttons */
+a:hover {
+  opacity: 0.8;
+}
